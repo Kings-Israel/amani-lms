@@ -1,1 +1,0 @@
-import{y as e,o as a,c as t,p as r,ba as c}from"./main.714bbe6f.js";const s={};function l(o,n){return a(),t("div",null,[r(c,{class:"mb-6",title:"Collateral Register"})])}const i=e(s,[["render",l]]);export{i as default};

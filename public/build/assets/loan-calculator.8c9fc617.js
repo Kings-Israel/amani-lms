@@ -1,0 +1,1 @@
+import{y as a,o as e,c,p as o,ba as t}from"./main.9f61b0b8.js";const r={};function l(n,s){return e(),c("div",null,[o(t,{class:"mb-6",title:"Loan Calculator"})])}const d=a(r,[["render",l]]);export{d as default};

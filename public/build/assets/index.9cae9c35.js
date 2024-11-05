@@ -1,0 +1,1 @@
+import{y as e,o as a,c as t,p as c,ba as s}from"./main.9f61b0b8.js";const n={};function r(o,l){return a(),t("div",null,[c(s,{class:"mb-6",title:"Asset Management"})])}const d=e(n,[["render",r]]);export{d as default};

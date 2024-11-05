@@ -1,1 +1,0 @@
-import{y as e,o as c,c as t,p as a,ba as o}from"./main.714bbe6f.js";const r={};function s(n,d){return c(),t("div",null,[a(o,{class:"mb-6",title:"Add Investor Account"})])}const _=e(r,[["render",s]]);export{_ as default};

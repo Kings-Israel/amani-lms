@@ -1,0 +1,1 @@
+import{y as c,o as e,c as a,p as t,ba as s}from"./main.9f61b0b8.js";const o={};function r(l,n){return e(),a("div",null,[t(s,{class:"mb-6",title:"Cash Flow Accumulated"})])}const u=c(o,[["render",r]]);export{u as default};
