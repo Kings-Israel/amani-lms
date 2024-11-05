@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <VCard
+      class="mb-6"
+      title="Expenses"
+    >
+    </VCard>
+  </div>
+</template>

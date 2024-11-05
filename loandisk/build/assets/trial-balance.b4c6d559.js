@@ -1,0 +1,1 @@
+import{y as a,o as e,c,p as r,ba as t}from"./main.c91d03fd.js";const n={};function s(l,o){return e(),c("div",null,[r(t,{class:"mb-6",title:"Trial Balance"})])}const i=a(n,[["render",s]]);export{i as default};

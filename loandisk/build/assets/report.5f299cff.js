@@ -1,0 +1,1 @@
+import{y as e,o as r,c as t,p as a,ba as c}from"./main.c91d03fd.js";const o={};function s(n,l){return r(),t("div",null,[a(c,{class:"mb-6",title:"Payoll Report"})])}const p=e(o,[["render",s]]);export{p as default};

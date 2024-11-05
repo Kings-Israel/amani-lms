@@ -1,0 +1,1 @@
+import{y as c,o as e,c as t,p as a,ba as o}from"./main.c91d03fd.js";const r={};function s(n,f){return e(),t("div",null,[a(o,{class:"mb-6",title:"Chart of Accounts"})])}const _=c(r,[["render",s]]);export{_ as default};

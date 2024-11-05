@@ -1,0 +1,1 @@
+import{y as e,o as c,c as r,p as a,ba as o}from"./main.c91d03fd.js";const t={};function n(s,d){return c(),r("div",null,[a(o,{class:"mb-6",title:"Deferred Income"})])}const l=e(t,[["render",n]]);export{l as default};

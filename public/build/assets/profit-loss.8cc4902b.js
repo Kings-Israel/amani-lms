@@ -1,0 +1,1 @@
+import{y as e,o as s,c as o,p as c,ba as r}from"./main.714bbe6f.js";const t={};function a(n,l){return s(),o("div",null,[c(r,{class:"mb-6",title:"Profile / Loss"})])}const _=e(t,[["render",a]]);export{_ as default};

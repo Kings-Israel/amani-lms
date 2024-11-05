@@ -1,0 +1,1 @@
+import{y as e,o as a,c,p as r,ba as o}from"./main.714bbe6f.js";const s={};function t(n,p){return a(),c("div",null,[r(o,{class:"mb-6",title:"Approve Transactions"})])}const _=e(s,[["render",t]]);export{_ as default};

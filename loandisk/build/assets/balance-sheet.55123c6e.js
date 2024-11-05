@@ -1,0 +1,1 @@
+import{y as e,o as a,c,p as t,ba as n}from"./main.c91d03fd.js";const r={};function s(o,l){return a(),c("div",null,[t(n,{class:"mb-6",title:"Balance Sheet"})])}const d=e(r,[["render",s]]);export{d as default};

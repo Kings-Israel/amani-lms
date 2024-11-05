@@ -1,0 +1,1 @@
+import{y as c,o as e,c as a,p as t,ba as n}from"./main.c91d03fd.js";const s={};function o(r,d){return e(),a("div",null,[t(n,{class:"mb-6",title:"Add Savings Account"})])}const _=c(s,[["render",o]]);export{_ as default};

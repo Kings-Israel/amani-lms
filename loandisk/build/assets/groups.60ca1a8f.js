@@ -1,0 +1,1 @@
+import{y as e,o as c,c as r,p as a,ba as o}from"./main.c91d03fd.js";const s={};function t(n,l){return c(),r("div",null,[a(o,{class:"mb-6",title:"Group"})])}const p=e(s,[["render",t]]);export{p as default};

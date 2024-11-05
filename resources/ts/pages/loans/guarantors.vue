@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <VCard
+      class="mb-6"
+      title="Guarantors"
+    >
+    </VCard>
+  </div>
+</template>

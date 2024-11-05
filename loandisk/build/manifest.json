@@ -1,0 +1,1338 @@
+{
+  "resources/images/pages/misc-mask-dark.png": {
+    "file": "assets/misc-mask-dark.d10426f0.png",
+    "src": "resources/images/pages/misc-mask-dark.png"
+  },
+  "resources/images/pages/404.png": {
+    "file": "assets/404.fee4b60b.png",
+    "src": "resources/images/pages/404.png"
+  },
+  "resources/images/pages/misc-mask-light.png": {
+    "file": "assets/misc-mask-light.d25607d4.png",
+    "src": "resources/images/pages/misc-mask-light.png"
+  },
+  "resources/images/pages/auth-v2-login-illustration-bordered-dark.png": {
+    "file": "assets/auth-v2-login-illustration-bordered-dark.a595a9b7.png",
+    "src": "resources/images/pages/auth-v2-login-illustration-bordered-dark.png"
+  },
+  "resources/images/pages/auth-v2-login-illustration-bordered-light.png": {
+    "file": "assets/auth-v2-login-illustration-bordered-light.47ee3625.png",
+    "src": "resources/images/pages/auth-v2-login-illustration-bordered-light.png"
+  },
+  "resources/images/pages/auth-v2-login-illustration-dark.png": {
+    "file": "assets/auth-v2-login-illustration-dark.0878e8b9.png",
+    "src": "resources/images/pages/auth-v2-login-illustration-dark.png"
+  },
+  "resources/images/pages/auth-v2-login-illustration-light.png": {
+    "file": "assets/auth-v2-login-illustration-light.d1fd488d.png",
+    "src": "resources/images/pages/auth-v2-login-illustration-light.png"
+  },
+  "resources/images/avatars/avatar-3.png": {
+    "file": "assets/avatar-3.47317f35.png",
+    "src": "resources/images/avatars/avatar-3.png"
+  },
+  "resources/images/avatars/avatar-4.png": {
+    "file": "assets/avatar-4.b0163f21.png",
+    "src": "resources/images/avatars/avatar-4.png"
+  },
+  "resources/images/avatars/avatar-5.png": {
+    "file": "assets/avatar-5.d340221a.png",
+    "src": "resources/images/avatars/avatar-5.png"
+  },
+  "resources/images/svg/paypal.svg": {
+    "file": "assets/paypal.01b645d1.svg",
+    "src": "resources/images/svg/paypal.svg"
+  },
+  "resources/images/avatars/avatar-1.png": {
+    "file": "assets/avatar-1.129659bb.png",
+    "src": "resources/images/avatars/avatar-1.png"
+  },
+  "resources/ts/main.ts": {
+    "file": "assets/main.c91d03fd.js",
+    "src": "resources/ts/main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "_webfontloader.b777d690.js",
+      "resources/ts/layouts/components/DefaultLayoutWithHorizontalNav.vue",
+      "resources/ts/layouts/components/DefaultLayoutWithVerticalNav.vue",
+      "resources/ts/layouts/blank.vue",
+      "resources/ts/layouts/components/Footer.vue",
+      "resources/ts/layouts/components/NavBarI18n.vue",
+      "resources/ts/layouts/components/NavBarNotifications.vue",
+      "resources/ts/layouts/components/NavbarShortcuts.vue",
+      "resources/ts/layouts/components/NavbarThemeSwitcher.vue",
+      "resources/ts/layouts/components/NavSearchBar.vue",
+      "resources/ts/layouts/components/UserProfile.vue",
+      "resources/ts/pages/savings-transactions/upload.vue",
+      "resources/ts/pages/savings-transactions/staff-report.vue",
+      "resources/ts/pages/savings-transactions/index.vue",
+      "resources/ts/pages/savings-transactions/approve.vue",
+      "resources/ts/pages/savings-transactions/add-bulk.vue",
+      "resources/ts/pages/savings/savings-accounts.vue",
+      "resources/ts/pages/savings/report.vue",
+      "resources/ts/pages/savings/products-report.vue",
+      "resources/ts/pages/savings/fee-report.vue",
+      "resources/ts/pages/savings/charts.vue",
+      "resources/ts/pages/savings/cash-safe-management.vue",
+      "resources/ts/pages/savings/add-savings-account.vue",
+      "resources/ts/pages/reports/pro-rata-collections-monthly.vue",
+      "resources/ts/pages/reports/portfolio-at-risk.vue",
+      "resources/ts/pages/reports/outstanding.vue",
+      "resources/ts/pages/reports/monthly.vue",
+      "resources/ts/pages/reports/mfrs-ratios.vue",
+      "resources/ts/pages/reports/loan-report.vue",
+      "resources/ts/pages/reports/loan-products.vue",
+      "resources/ts/pages/reports/loan-officer.vue",
+      "resources/ts/pages/reports/loan-arrears-aging.vue",
+      "resources/ts/pages/reports/fees.vue",
+      "resources/ts/pages/reports/disbursement.vue",
+      "resources/ts/pages/reports/deferred-income.vue",
+      "resources/ts/pages/reports/deferred-income-monthly.vue",
+      "resources/ts/pages/reports/collector.vue",
+      "resources/ts/pages/reports/collection.vue",
+      "resources/ts/pages/reports/borrowers.vue",
+      "resources/ts/pages/reports/at-a-glance.vue",
+      "resources/ts/pages/reports/all-entries.vue",
+      "resources/ts/pages/repayments/upload.vue",
+      "resources/ts/pages/repayments/index.vue",
+      "resources/ts/pages/repayments/charts.vue",
+      "resources/ts/pages/repayments/approve.vue",
+      "resources/ts/pages/repayments/add-bulk.vue",
+      "resources/ts/pages/payroll/report.vue",
+      "resources/ts/pages/payroll/index.vue",
+      "resources/ts/pages/payroll/add.vue",
+      "resources/ts/pages/other-income/upload.vue",
+      "resources/ts/pages/other-income/index.vue",
+      "resources/ts/pages/other-income/add.vue",
+      "resources/ts/pages/loans/three-months-late.vue",
+      "resources/ts/pages/loans/principle-outstanding.vue",
+      "resources/ts/pages/loans/past-maturity-date.vue",
+      "resources/ts/pages/loans/one-month-late.vue",
+      "resources/ts/pages/loans/no-repayments.vue",
+      "resources/ts/pages/loans/missed-repayments.vue",
+      "resources/ts/pages/loans/loans-in-arrears.vue",
+      "resources/ts/pages/loans/loan-comments.vue",
+      "resources/ts/pages/loans/loan-calculator.vue",
+      "resources/ts/pages/loans/index.vue",
+      "resources/ts/pages/loans/guarantors.vue",
+      "resources/ts/pages/loans/due-loans.vue",
+      "resources/ts/pages/loans/approve-loans.vue",
+      "resources/ts/pages/loans/add-loan.vue",
+      "resources/ts/pages/investors-accounts/loan-investments.vue",
+      "resources/ts/pages/investors-accounts/investor-transactions.vue",
+      "resources/ts/pages/investors-accounts/index.vue",
+      "resources/ts/pages/investors-accounts/approve-investment.vue",
+      "resources/ts/pages/investors-accounts/add.vue",
+      "resources/ts/pages/investors/send-sms.vue",
+      "resources/ts/pages/investors/send-email.vue",
+      "resources/ts/pages/investors/invite.vue",
+      "resources/ts/pages/investors/index.vue",
+      "resources/ts/pages/investors/add.vue",
+      "resources/ts/pages/expenses/upload.vue",
+      "resources/ts/pages/expenses/index.vue",
+      "resources/ts/pages/expenses/add.vue",
+      "resources/ts/pages/collection-sheets/send-sms.vue",
+      "resources/ts/pages/collection-sheets/send-email.vue",
+      "resources/ts/pages/collection-sheets/past-maturity-date.vue",
+      "resources/ts/pages/collection-sheets/missed-repayment.vue",
+      "resources/ts/pages/collection-sheets/daily.vue",
+      "resources/ts/pages/borrowers/send-sms.vue",
+      "resources/ts/pages/borrowers/send-email.vue",
+      "resources/ts/pages/borrowers/invite.vue",
+      "resources/ts/pages/borrowers/index.vue",
+      "resources/ts/pages/borrowers/groups.vue",
+      "resources/ts/pages/borrowers/add.vue",
+      "resources/ts/pages/borrowers/add-group.vue",
+      "resources/ts/pages/asset-management/index.vue",
+      "resources/ts/pages/asset-management/add.vue",
+      "resources/ts/pages/accounting/trial-balance.vue",
+      "resources/ts/pages/accounting/reconcile-entries.vue",
+      "resources/ts/pages/accounting/profit-loss.vue",
+      "resources/ts/pages/accounting/manual-journal.vue",
+      "resources/ts/pages/accounting/inter-bank-transfers.vue",
+      "resources/ts/pages/accounting/general-ledger-summary.vue",
+      "resources/ts/pages/accounting/chart-of-accounts.vue",
+      "resources/ts/pages/accounting/cash-flow-monthly.vue",
+      "resources/ts/pages/accounting/cash-flow-accumulated.vue",
+      "resources/ts/pages/accounting/branch-equity.vue",
+      "resources/ts/pages/accounting/balance-sheet.vue",
+      "resources/ts/pages/second-page.vue",
+      "resources/ts/pages/login.vue",
+      "resources/ts/pages/e-signatures.vue",
+      "resources/ts/pages/dashboard.vue",
+      "resources/ts/pages/collateral-register.vue",
+      "resources/ts/pages/calendar.vue",
+      "resources/ts/pages/[...all].vue"
+    ],
+    "css": [
+      "assets/main.86a49df1.css"
+    ]
+  },
+  "_webfontloader.b777d690.js": {
+    "file": "assets/webfontloader.b777d690.js",
+    "isDynamicEntry": true
+  },
+  "resources/ts/layouts/blank.vue": {
+    "file": "assets/blank.9c4793f0.js",
+    "src": "resources/ts/layouts/blank.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ],
+    "css": [
+      "assets/blank.3fac9ebf.css"
+    ]
+  },
+  "resources/ts/layouts/components/DefaultLayoutWithHorizontalNav.vue": {
+    "file": "assets/DefaultLayoutWithHorizontalNav.10667d9e.js",
+    "src": "resources/ts/layouts/components/DefaultLayoutWithHorizontalNav.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "resources/ts/layouts/components/Footer.vue",
+      "_NavbarThemeSwitcher.vue_vue_type_script_setup_true_lang.e25e51af.js",
+      "_UserProfile.vue_vue_type_script_setup_true_lang.93745859.js",
+      "_VSpacer.0e63b279.js",
+      "_VBtn.e4d5a7af.js",
+      "_VMenu.cd0000a2.js",
+      "_VDivider.87eb1827.js",
+      "_scopeId.49d626f8.js",
+      "_VList.0e899df5.js",
+      "_index.997dd10d.js",
+      "_VListItemAction.37bed9eb.js"
+    ]
+  },
+  "resources/ts/layouts/components/Footer.vue": {
+    "file": "assets/Footer.f0efdee4.js",
+    "src": "resources/ts/layouts/components/Footer.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "_NavbarThemeSwitcher.vue_vue_type_script_setup_true_lang.e25e51af.js": {
+    "file": "assets/NavbarThemeSwitcher.vue_vue_type_script_setup_true_lang.e25e51af.js",
+    "imports": [
+      "resources/ts/main.ts",
+      "_VBtn.e4d5a7af.js"
+    ]
+  },
+  "_UserProfile.vue_vue_type_script_setup_true_lang.93745859.js": {
+    "file": "assets/UserProfile.vue_vue_type_script_setup_true_lang.93745859.js",
+    "imports": [
+      "resources/ts/main.ts",
+      "_VMenu.cd0000a2.js",
+      "_VList.0e899df5.js",
+      "_VListItemAction.37bed9eb.js",
+      "_VDivider.87eb1827.js"
+    ],
+    "assets": [
+      "assets/avatar-1.129659bb.png"
+    ]
+  },
+  "_VSpacer.0e63b279.js": {
+    "file": "assets/VSpacer.0e63b279.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "_VMenu.cd0000a2.js": {
+    "file": "assets/VMenu.cd0000a2.js",
+    "imports": [
+      "_VDivider.87eb1827.js",
+      "resources/ts/main.ts",
+      "_scopeId.49d626f8.js"
+    ],
+    "css": [
+      "assets/VMenu.85bdf640.css"
+    ]
+  },
+  "_VList.0e899df5.js": {
+    "file": "assets/VList.0e899df5.js",
+    "imports": [
+      "resources/ts/main.ts",
+      "_index.997dd10d.js",
+      "_VDivider.87eb1827.js"
+    ],
+    "css": [
+      "assets/VList.f3553822.css"
+    ]
+  },
+  "_VListItemAction.37bed9eb.js": {
+    "file": "assets/VListItemAction.37bed9eb.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "_VDivider.87eb1827.js": {
+    "file": "assets/VDivider.87eb1827.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ],
+    "css": [
+      "assets/VDivider.5d6d66e0.css"
+    ]
+  },
+  "_VBtn.e4d5a7af.js": {
+    "file": "assets/VBtn.e4d5a7af.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ],
+    "css": [
+      "assets/VBtn.1958adaf.css"
+    ]
+  },
+  "_scopeId.49d626f8.js": {
+    "file": "assets/scopeId.49d626f8.js",
+    "imports": [
+      "resources/ts/main.ts",
+      "_VDivider.87eb1827.js"
+    ],
+    "css": [
+      "assets/scopeId.72fa3373.css"
+    ]
+  },
+  "_index.997dd10d.js": {
+    "file": "assets/index.997dd10d.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/layouts/components/DefaultLayoutWithVerticalNav.vue": {
+    "file": "assets/DefaultLayoutWithVerticalNav.d58ee11d.js",
+    "src": "resources/ts/layouts/components/DefaultLayoutWithVerticalNav.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "resources/ts/layouts/components/Footer.vue",
+      "_NavbarThemeSwitcher.vue_vue_type_script_setup_true_lang.e25e51af.js",
+      "_UserProfile.vue_vue_type_script_setup_true_lang.93745859.js",
+      "_VBtn.e4d5a7af.js",
+      "_VSpacer.0e63b279.js",
+      "_VMenu.cd0000a2.js",
+      "_VDivider.87eb1827.js",
+      "_scopeId.49d626f8.js",
+      "_VList.0e899df5.js",
+      "_index.997dd10d.js",
+      "_VListItemAction.37bed9eb.js"
+    ]
+  },
+  "resources/ts/layouts/components/NavBarI18n.vue": {
+    "file": "assets/NavBarI18n.f3a357bb.js",
+    "src": "resources/ts/layouts/components/NavBarI18n.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_VMenu.cd0000a2.js",
+      "_VList.0e899df5.js",
+      "_VBtn.e4d5a7af.js",
+      "_VDivider.87eb1827.js",
+      "_scopeId.49d626f8.js",
+      "_index.997dd10d.js"
+    ]
+  },
+  "resources/ts/layouts/components/NavBarNotifications.vue": {
+    "file": "assets/NavBarNotifications.17c27ad2.js",
+    "src": "resources/ts/layouts/components/NavBarNotifications.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_VBtn.e4d5a7af.js",
+      "resources/ts/main.ts",
+      "_VMenu.cd0000a2.js",
+      "_VList.0e899df5.js",
+      "_index.997dd10d.js",
+      "_VDivider.87eb1827.js",
+      "_VListItemAction.37bed9eb.js",
+      "_scopeId.49d626f8.js"
+    ],
+    "css": [
+      "assets/NavBarNotifications.8d301796.css"
+    ],
+    "assets": [
+      "assets/avatar-3.47317f35.png",
+      "assets/avatar-4.b0163f21.png",
+      "assets/avatar-5.d340221a.png",
+      "assets/paypal.01b645d1.svg"
+    ]
+  },
+  "resources/ts/layouts/components/NavbarShortcuts.vue": {
+    "file": "assets/NavbarShortcuts.3058a439.js",
+    "src": "resources/ts/layouts/components/NavbarShortcuts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_VMenu.cd0000a2.js",
+      "_VBtn.e4d5a7af.js",
+      "_VDivider.87eb1827.js",
+      "_VRow.eccc3bdc.js",
+      "_scopeId.49d626f8.js"
+    ]
+  },
+  "_VRow.eccc3bdc.js": {
+    "file": "assets/VRow.eccc3bdc.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ],
+    "css": [
+      "assets/VRow.0b79ff68.css"
+    ]
+  },
+  "resources/ts/layouts/components/NavbarThemeSwitcher.vue": {
+    "file": "assets/NavbarThemeSwitcher.e1827636.js",
+    "src": "resources/ts/layouts/components/NavbarThemeSwitcher.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_NavbarThemeSwitcher.vue_vue_type_script_setup_true_lang.e25e51af.js",
+      "resources/ts/main.ts",
+      "_VBtn.e4d5a7af.js"
+    ]
+  },
+  "resources/ts/layouts/components/NavSearchBar.vue": {
+    "file": "assets/NavSearchBar.900f8ba9.js",
+    "src": "resources/ts/layouts/components/NavSearchBar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_VBtn.e4d5a7af.js"
+    ],
+    "dynamicImports": [
+      "resources/ts/@core/components/AppBarSearch.vue"
+    ],
+    "css": [
+      "assets/NavSearchBar.45bc153a.css"
+    ]
+  },
+  "resources/ts/layouts/components/UserProfile.vue": {
+    "file": "assets/UserProfile.72e37b9b.js",
+    "src": "resources/ts/layouts/components/UserProfile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_UserProfile.vue_vue_type_script_setup_true_lang.93745859.js",
+      "resources/ts/main.ts",
+      "_VMenu.cd0000a2.js",
+      "_VDivider.87eb1827.js",
+      "_scopeId.49d626f8.js",
+      "_VList.0e899df5.js",
+      "_index.997dd10d.js",
+      "_VListItemAction.37bed9eb.js"
+    ]
+  },
+  "resources/ts/pages/savings-transactions/upload.vue": {
+    "file": "assets/upload.345e2d56.js",
+    "src": "resources/ts/pages/savings-transactions/upload.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings-transactions/staff-report.vue": {
+    "file": "assets/staff-report.3e8ec2f4.js",
+    "src": "resources/ts/pages/savings-transactions/staff-report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings-transactions/index.vue": {
+    "file": "assets/index.bfa4cc98.js",
+    "src": "resources/ts/pages/savings-transactions/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings-transactions/approve.vue": {
+    "file": "assets/approve.1f2bd70e.js",
+    "src": "resources/ts/pages/savings-transactions/approve.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings-transactions/add-bulk.vue": {
+    "file": "assets/add-bulk.da80e78d.js",
+    "src": "resources/ts/pages/savings-transactions/add-bulk.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/savings-accounts.vue": {
+    "file": "assets/savings-accounts.945d72b8.js",
+    "src": "resources/ts/pages/savings/savings-accounts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/report.vue": {
+    "file": "assets/report.d772b430.js",
+    "src": "resources/ts/pages/savings/report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/products-report.vue": {
+    "file": "assets/products-report.bc022832.js",
+    "src": "resources/ts/pages/savings/products-report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/fee-report.vue": {
+    "file": "assets/fee-report.c9ec2c09.js",
+    "src": "resources/ts/pages/savings/fee-report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/charts.vue": {
+    "file": "assets/charts.9dd7882d.js",
+    "src": "resources/ts/pages/savings/charts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/cash-safe-management.vue": {
+    "file": "assets/cash-safe-management.dea3dc6c.js",
+    "src": "resources/ts/pages/savings/cash-safe-management.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/savings/add-savings-account.vue": {
+    "file": "assets/add-savings-account.4d80ba84.js",
+    "src": "resources/ts/pages/savings/add-savings-account.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/pro-rata-collections-monthly.vue": {
+    "file": "assets/pro-rata-collections-monthly.b99c9bec.js",
+    "src": "resources/ts/pages/reports/pro-rata-collections-monthly.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/portfolio-at-risk.vue": {
+    "file": "assets/portfolio-at-risk.216d3bd6.js",
+    "src": "resources/ts/pages/reports/portfolio-at-risk.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/outstanding.vue": {
+    "file": "assets/outstanding.f41eadb9.js",
+    "src": "resources/ts/pages/reports/outstanding.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/monthly.vue": {
+    "file": "assets/monthly.e4494066.js",
+    "src": "resources/ts/pages/reports/monthly.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/mfrs-ratios.vue": {
+    "file": "assets/mfrs-ratios.15c07180.js",
+    "src": "resources/ts/pages/reports/mfrs-ratios.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/loan-report.vue": {
+    "file": "assets/loan-report.8eba9d35.js",
+    "src": "resources/ts/pages/reports/loan-report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/loan-products.vue": {
+    "file": "assets/loan-products.db83c034.js",
+    "src": "resources/ts/pages/reports/loan-products.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/loan-officer.vue": {
+    "file": "assets/loan-officer.3e97c88a.js",
+    "src": "resources/ts/pages/reports/loan-officer.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/loan-arrears-aging.vue": {
+    "file": "assets/loan-arrears-aging.87a3dbcc.js",
+    "src": "resources/ts/pages/reports/loan-arrears-aging.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/fees.vue": {
+    "file": "assets/fees.07c377ba.js",
+    "src": "resources/ts/pages/reports/fees.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/disbursement.vue": {
+    "file": "assets/disbursement.b5c46a4a.js",
+    "src": "resources/ts/pages/reports/disbursement.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/deferred-income.vue": {
+    "file": "assets/deferred-income.f30b69ce.js",
+    "src": "resources/ts/pages/reports/deferred-income.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/deferred-income-monthly.vue": {
+    "file": "assets/deferred-income-monthly.8e86a15f.js",
+    "src": "resources/ts/pages/reports/deferred-income-monthly.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/collector.vue": {
+    "file": "assets/collector.74b03bf2.js",
+    "src": "resources/ts/pages/reports/collector.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/collection.vue": {
+    "file": "assets/collection.491e8ce6.js",
+    "src": "resources/ts/pages/reports/collection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/borrowers.vue": {
+    "file": "assets/borrowers.a982ed76.js",
+    "src": "resources/ts/pages/reports/borrowers.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/at-a-glance.vue": {
+    "file": "assets/at-a-glance.2f0d6088.js",
+    "src": "resources/ts/pages/reports/at-a-glance.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/reports/all-entries.vue": {
+    "file": "assets/all-entries.1f15c995.js",
+    "src": "resources/ts/pages/reports/all-entries.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/repayments/upload.vue": {
+    "file": "assets/upload.e9a1720e.js",
+    "src": "resources/ts/pages/repayments/upload.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/repayments/index.vue": {
+    "file": "assets/index.ee21fd10.js",
+    "src": "resources/ts/pages/repayments/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/repayments/charts.vue": {
+    "file": "assets/charts.fc0701c5.js",
+    "src": "resources/ts/pages/repayments/charts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/repayments/approve.vue": {
+    "file": "assets/approve.e39784df.js",
+    "src": "resources/ts/pages/repayments/approve.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/repayments/add-bulk.vue": {
+    "file": "assets/add-bulk.797900ce.js",
+    "src": "resources/ts/pages/repayments/add-bulk.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/payroll/report.vue": {
+    "file": "assets/report.5f299cff.js",
+    "src": "resources/ts/pages/payroll/report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/payroll/index.vue": {
+    "file": "assets/index.ea5611ed.js",
+    "src": "resources/ts/pages/payroll/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/payroll/add.vue": {
+    "file": "assets/add.9a4ba4be.js",
+    "src": "resources/ts/pages/payroll/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/other-income/upload.vue": {
+    "file": "assets/upload.c205008f.js",
+    "src": "resources/ts/pages/other-income/upload.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/other-income/index.vue": {
+    "file": "assets/index.2acee874.js",
+    "src": "resources/ts/pages/other-income/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/other-income/add.vue": {
+    "file": "assets/add.c6767f54.js",
+    "src": "resources/ts/pages/other-income/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/three-months-late.vue": {
+    "file": "assets/three-months-late.00d695a5.js",
+    "src": "resources/ts/pages/loans/three-months-late.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/principle-outstanding.vue": {
+    "file": "assets/principle-outstanding.c07280a7.js",
+    "src": "resources/ts/pages/loans/principle-outstanding.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/past-maturity-date.vue": {
+    "file": "assets/past-maturity-date.50ac915e.js",
+    "src": "resources/ts/pages/loans/past-maturity-date.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/one-month-late.vue": {
+    "file": "assets/one-month-late.cc2eb55c.js",
+    "src": "resources/ts/pages/loans/one-month-late.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/no-repayments.vue": {
+    "file": "assets/no-repayments.6d6d4933.js",
+    "src": "resources/ts/pages/loans/no-repayments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/missed-repayments.vue": {
+    "file": "assets/missed-repayments.d14a14da.js",
+    "src": "resources/ts/pages/loans/missed-repayments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/loans-in-arrears.vue": {
+    "file": "assets/loans-in-arrears.acb8a2f4.js",
+    "src": "resources/ts/pages/loans/loans-in-arrears.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/loan-comments.vue": {
+    "file": "assets/loan-comments.58d584e7.js",
+    "src": "resources/ts/pages/loans/loan-comments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/loan-calculator.vue": {
+    "file": "assets/loan-calculator.ef76fbb4.js",
+    "src": "resources/ts/pages/loans/loan-calculator.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/index.vue": {
+    "file": "assets/index.3261eb84.js",
+    "src": "resources/ts/pages/loans/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/guarantors.vue": {
+    "file": "assets/guarantors.4ad11a45.js",
+    "src": "resources/ts/pages/loans/guarantors.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/due-loans.vue": {
+    "file": "assets/due-loans.845dcf74.js",
+    "src": "resources/ts/pages/loans/due-loans.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/approve-loans.vue": {
+    "file": "assets/approve-loans.bb97092a.js",
+    "src": "resources/ts/pages/loans/approve-loans.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/loans/add-loan.vue": {
+    "file": "assets/add-loan.2163c42a.js",
+    "src": "resources/ts/pages/loans/add-loan.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors-accounts/loan-investments.vue": {
+    "file": "assets/loan-investments.8dfa78bf.js",
+    "src": "resources/ts/pages/investors-accounts/loan-investments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors-accounts/investor-transactions.vue": {
+    "file": "assets/investor-transactions.a6d6110b.js",
+    "src": "resources/ts/pages/investors-accounts/investor-transactions.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors-accounts/index.vue": {
+    "file": "assets/index.3d05cd99.js",
+    "src": "resources/ts/pages/investors-accounts/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors-accounts/approve-investment.vue": {
+    "file": "assets/approve-investment.600b2f89.js",
+    "src": "resources/ts/pages/investors-accounts/approve-investment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors-accounts/add.vue": {
+    "file": "assets/add.507e7245.js",
+    "src": "resources/ts/pages/investors-accounts/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors/send-sms.vue": {
+    "file": "assets/send-sms.d5e9c7c4.js",
+    "src": "resources/ts/pages/investors/send-sms.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors/send-email.vue": {
+    "file": "assets/send-email.ea80f08f.js",
+    "src": "resources/ts/pages/investors/send-email.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors/invite.vue": {
+    "file": "assets/invite.872553aa.js",
+    "src": "resources/ts/pages/investors/invite.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors/index.vue": {
+    "file": "assets/index.1972acd2.js",
+    "src": "resources/ts/pages/investors/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/investors/add.vue": {
+    "file": "assets/add.8652f1a4.js",
+    "src": "resources/ts/pages/investors/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/expenses/upload.vue": {
+    "file": "assets/upload.c680f48d.js",
+    "src": "resources/ts/pages/expenses/upload.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/expenses/index.vue": {
+    "file": "assets/index.e3f6a705.js",
+    "src": "resources/ts/pages/expenses/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/expenses/add.vue": {
+    "file": "assets/add.983f7f29.js",
+    "src": "resources/ts/pages/expenses/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collection-sheets/send-sms.vue": {
+    "file": "assets/send-sms.ff20ed10.js",
+    "src": "resources/ts/pages/collection-sheets/send-sms.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collection-sheets/send-email.vue": {
+    "file": "assets/send-email.93f685ef.js",
+    "src": "resources/ts/pages/collection-sheets/send-email.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collection-sheets/past-maturity-date.vue": {
+    "file": "assets/past-maturity-date.1867d37d.js",
+    "src": "resources/ts/pages/collection-sheets/past-maturity-date.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collection-sheets/missed-repayment.vue": {
+    "file": "assets/missed-repayment.7f8b248b.js",
+    "src": "resources/ts/pages/collection-sheets/missed-repayment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collection-sheets/daily.vue": {
+    "file": "assets/daily.6177cf3e.js",
+    "src": "resources/ts/pages/collection-sheets/daily.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/send-sms.vue": {
+    "file": "assets/send-sms.eb5837b1.js",
+    "src": "resources/ts/pages/borrowers/send-sms.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/send-email.vue": {
+    "file": "assets/send-email.e401b7a4.js",
+    "src": "resources/ts/pages/borrowers/send-email.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/invite.vue": {
+    "file": "assets/invite.e6da8b94.js",
+    "src": "resources/ts/pages/borrowers/invite.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/index.vue": {
+    "file": "assets/index.4e04a071.js",
+    "src": "resources/ts/pages/borrowers/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/groups.vue": {
+    "file": "assets/groups.60ca1a8f.js",
+    "src": "resources/ts/pages/borrowers/groups.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/add.vue": {
+    "file": "assets/add.b2b07cdd.js",
+    "src": "resources/ts/pages/borrowers/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/borrowers/add-group.vue": {
+    "file": "assets/add-group.a18f7d00.js",
+    "src": "resources/ts/pages/borrowers/add-group.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/asset-management/index.vue": {
+    "file": "assets/index.c4d02dd6.js",
+    "src": "resources/ts/pages/asset-management/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/asset-management/add.vue": {
+    "file": "assets/add.80675d64.js",
+    "src": "resources/ts/pages/asset-management/add.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/trial-balance.vue": {
+    "file": "assets/trial-balance.b4c6d559.js",
+    "src": "resources/ts/pages/accounting/trial-balance.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/reconcile-entries.vue": {
+    "file": "assets/reconcile-entries.d22b0128.js",
+    "src": "resources/ts/pages/accounting/reconcile-entries.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/profit-loss.vue": {
+    "file": "assets/profit-loss.37410e12.js",
+    "src": "resources/ts/pages/accounting/profit-loss.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/manual-journal.vue": {
+    "file": "assets/manual-journal.2c207a7b.js",
+    "src": "resources/ts/pages/accounting/manual-journal.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/inter-bank-transfers.vue": {
+    "file": "assets/inter-bank-transfers.ac133f10.js",
+    "src": "resources/ts/pages/accounting/inter-bank-transfers.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/general-ledger-summary.vue": {
+    "file": "assets/general-ledger-summary.09de4bee.js",
+    "src": "resources/ts/pages/accounting/general-ledger-summary.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/chart-of-accounts.vue": {
+    "file": "assets/chart-of-accounts.99b4863e.js",
+    "src": "resources/ts/pages/accounting/chart-of-accounts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/cash-flow-monthly.vue": {
+    "file": "assets/cash-flow-monthly.a5d2e31b.js",
+    "src": "resources/ts/pages/accounting/cash-flow-monthly.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/cash-flow-accumulated.vue": {
+    "file": "assets/cash-flow-accumulated.7ac74bb8.js",
+    "src": "resources/ts/pages/accounting/cash-flow-accumulated.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/branch-equity.vue": {
+    "file": "assets/branch-equity.53e7c7df.js",
+    "src": "resources/ts/pages/accounting/branch-equity.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/accounting/balance-sheet.vue": {
+    "file": "assets/balance-sheet.55123c6e.js",
+    "src": "resources/ts/pages/accounting/balance-sheet.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/second-page.vue": {
+    "file": "assets/second-page.83c16b11.js",
+    "src": "resources/ts/pages/second-page.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/login.vue": {
+    "file": "assets/login.4525ed0e.js",
+    "src": "resources/ts/pages/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_VBtn.e4d5a7af.js",
+      "_route-block.5f5fd6a5.js",
+      "_VRow.eccc3bdc.js",
+      "_VTextField.9f1f5c02.js",
+      "_VDivider.87eb1827.js",
+      "_index.997dd10d.js"
+    ],
+    "css": [
+      "assets/login.877b3b58.css"
+    ],
+    "assets": [
+      "assets/auth-v2-login-illustration-bordered-dark.a595a9b7.png",
+      "assets/auth-v2-login-illustration-bordered-light.47ee3625.png",
+      "assets/auth-v2-login-illustration-dark.0878e8b9.png",
+      "assets/auth-v2-login-illustration-light.d1fd488d.png"
+    ]
+  },
+  "_route-block.5f5fd6a5.js": {
+    "file": "assets/route-block.5f5fd6a5.js",
+    "imports": [
+      "resources/ts/main.ts"
+    ],
+    "assets": [
+      "assets/misc-mask-dark.d10426f0.png",
+      "assets/misc-mask-light.d25607d4.png"
+    ]
+  },
+  "_VTextField.9f1f5c02.js": {
+    "file": "assets/VTextField.9f1f5c02.js",
+    "imports": [
+      "resources/ts/main.ts",
+      "_index.997dd10d.js",
+      "_VDivider.87eb1827.js"
+    ],
+    "css": [
+      "assets/VTextField.539df929.css"
+    ]
+  },
+  "resources/ts/pages/e-signatures.vue": {
+    "file": "assets/e-signatures.92dea586.js",
+    "src": "resources/ts/pages/e-signatures.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/dashboard.vue": {
+    "file": "assets/dashboard.28dcb6a5.js",
+    "src": "resources/ts/pages/dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/collateral-register.vue": {
+    "file": "assets/collateral-register.c3895a98.js",
+    "src": "resources/ts/pages/collateral-register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/calendar.vue": {
+    "file": "assets/calendar.19a36ca6.js",
+    "src": "resources/ts/pages/calendar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts"
+    ]
+  },
+  "resources/ts/pages/[...all].vue": {
+    "file": "assets/_...all_.83fdfe39.js",
+    "src": "resources/ts/pages/[...all].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_route-block.5f5fd6a5.js",
+      "_VBtn.e4d5a7af.js"
+    ],
+    "css": [
+      "assets/_...all_.4a4fc11c.css"
+    ],
+    "assets": [
+      "assets/404.fee4b60b.png"
+    ]
+  },
+  "resources/ts/@core/components/AppBarSearch.vue": {
+    "file": "assets/AppBarSearch.b055017b.js",
+    "src": "resources/ts/@core/components/AppBarSearch.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/main.ts",
+      "_VTextField.9f1f5c02.js",
+      "_VBtn.e4d5a7af.js",
+      "_VDivider.87eb1827.js",
+      "_VList.0e899df5.js",
+      "_VRow.eccc3bdc.js",
+      "_scopeId.49d626f8.js",
+      "_index.997dd10d.js"
+    ],
+    "css": [
+      "assets/AppBarSearch.348c4c43.css"
+    ]
+  },
+  "resources/ts/layouts/blank.css": {
+    "file": "assets/blank.3fac9ebf.css",
+    "src": "resources/ts/layouts/blank.css"
+  },
+  "VDivider.css": {
+    "file": "assets/VDivider.5d6d66e0.css",
+    "src": "VDivider.css"
+  },
+  "VMenu.css": {
+    "file": "assets/VMenu.85bdf640.css",
+    "src": "VMenu.css"
+  },
+  "resources/ts/layouts/components/NavBarNotifications.css": {
+    "file": "assets/NavBarNotifications.8d301796.css",
+    "src": "resources/ts/layouts/components/NavBarNotifications.css"
+  },
+  "resources/ts/pages/[...all].css": {
+    "file": "assets/_...all_.4a4fc11c.css",
+    "src": "resources/ts/pages/[...all].css"
+  },
+  "VRow.css": {
+    "file": "assets/VRow.0b79ff68.css",
+    "src": "VRow.css"
+  },
+  "resources/ts/layouts/components/NavSearchBar.css": {
+    "file": "assets/NavSearchBar.45bc153a.css",
+    "src": "resources/ts/layouts/components/NavSearchBar.css"
+  },
+  "scopeId.css": {
+    "file": "assets/scopeId.72fa3373.css",
+    "src": "scopeId.css"
+  },
+  "VBtn.css": {
+    "file": "assets/VBtn.1958adaf.css",
+    "src": "VBtn.css"
+  },
+  "resources/ts/@core/components/AppBarSearch.css": {
+    "file": "assets/AppBarSearch.348c4c43.css",
+    "src": "resources/ts/@core/components/AppBarSearch.css"
+  },
+  "VList.css": {
+    "file": "assets/VList.f3553822.css",
+    "src": "VList.css"
+  },
+  "VTextField.css": {
+    "file": "assets/VTextField.539df929.css",
+    "src": "VTextField.css"
+  },
+  "resources/ts/pages/login.css": {
+    "file": "assets/login.877b3b58.css",
+    "src": "resources/ts/pages/login.css"
+  },
+  "resources/ts/main.css": {
+    "file": "assets/main.86a49df1.css",
+    "src": "resources/ts/main.css"
+  }
+}

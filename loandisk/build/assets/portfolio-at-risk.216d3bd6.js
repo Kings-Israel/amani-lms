@@ -1,0 +1,1 @@
+import{y as e,o,c as t,p as c,ba as r}from"./main.c91d03fd.js";const s={};function a(n,l){return o(),t("div",null,[c(r,{class:"mb-6",title:"Portfolio At Risk"})])}const f=e(s,[["render",a]]);export{f as default};

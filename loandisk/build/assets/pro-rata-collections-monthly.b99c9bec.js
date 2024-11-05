@@ -1,0 +1,1 @@
+import{y as e,o,c as t,p as a,ba as c}from"./main.c91d03fd.js";const n={};function r(s,l){return o(),t("div",null,[a(c,{class:"mb-6",title:"Pro Rata Collections Monthly"})])}const i=e(n,[["render",r]]);export{i as default};

@@ -1,0 +1,1 @@
+import{y as e,o as t,c,p as s,ba as a}from"./main.c91d03fd.js";const n={};function r(o,i){return t(),c("div",null,[s(a,{class:"mb-6",title:"Invite Investors"})])}const _=e(n,[["render",r]]);export{_ as default};
