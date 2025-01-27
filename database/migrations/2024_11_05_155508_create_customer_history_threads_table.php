@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('customer_history_threads', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->longText('remark')->nullable();
+            $table->date('date_visited')->nullable();
+            $table->date('next_scheduled_visit')->nullable();
             $table->timestamps();
         });
     }

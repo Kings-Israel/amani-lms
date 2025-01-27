@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('next_of_kin', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('name')->nullable();
+            $table->string('phone_number')->nullable();
+            $table->integer('relationship_id')->unsigned()->nullable();
             $table->timestamps();
         });
     }

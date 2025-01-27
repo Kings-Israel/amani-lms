@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('investments', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->decimal('amount', 10, 2);
+            $table->string('transaction_no')->nullable();
+            $table->string('channel')->nullable();
+            $table->string('transaction_id')->nullable();
+            $table->dateTime('date_paid')->nullable();
             $table->timestamps();
         });
     }

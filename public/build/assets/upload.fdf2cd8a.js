@@ -1,1 +1,0 @@
-import{y as a,o as e,c,p as o,ba as s}from"./main.9f61b0b8.js";const t={};function r(n,l){return e(),c("div",null,[o(s,{class:"mb-6",title:"Upload Transactions"})])}const _=a(t,[["render",r]]);export{_ as default};

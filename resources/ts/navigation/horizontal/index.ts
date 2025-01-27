@@ -129,11 +129,6 @@ export default [
     ],
   },
   {
-    title: 'Collateral Register',
-    to: { name: 'collateral-register' },
-    icon: { icon: 'tabler-list' },
-  },
-  {
     title: 'Collection Sheets',
     icon: { icon: 'tabler-checkup-list' },
     children: [
@@ -156,66 +151,6 @@ export default [
       {
         title: 'Send Email',
         to: 'collection-sheets-send-email',
-      },
-    ],
-  },
-  {
-    title: 'Savings',
-    icon: { icon: 'tabler-pig-money' },
-    children: [
-      {
-        title: 'View Savings Accounts',
-        to: 'savings-savings-accounts',
-      },
-      {
-        title: 'Add Savings Account',
-        to: 'savings-add-savings-account',
-      },
-      {
-        title: 'Savings Charts',
-        to: 'savings-charts',
-      },
-      {
-        title: 'Savings Report',
-        to: 'savings-report',
-      },
-      {
-        title: 'Savings Products Report',
-        to: 'savings-products-report',
-      },
-      {
-        title: 'Savings Fee Report',
-        to: 'savings-fee-report',
-      },
-      {
-        title: 'Cash Sale Management',
-        to: 'savings-cash-safe-management',
-      },
-    ],
-  },
-  {
-    title: 'Savings Transactions',
-    icon: { icon: 'tabler-chart-arcs-3' },
-    children: [
-      {
-        title: 'View Savings Transactions',
-        to: 'savings-transactions',
-      },
-      {
-        title: 'Add Bulk Transactions',
-        to: 'savings-transactions-add-bulk',
-      },
-      {
-        title: 'Upload Transactions',
-        to: 'savings-transactions-upload',
-      },
-      {
-        title: 'Staff Transactions Report',
-        to: 'savings-transactions-staff-report',
-      },
-      {
-        title: 'Approve Transactions',
-        to: 'savings-transactions-approve',
       },
     ],
   },
@@ -272,29 +207,6 @@ export default [
     ],
   },
   {
-    title: 'E-Signatures',
-    to: { name: 'e-signatures' },
-    icon: { icon: 'tabler-signature' },
-  },
-  {
-    title: 'Payroll',
-    icon: { icon: 'tabler-brand-paypal-filled' },
-    children: [
-      {
-        title: 'View Payroll',
-        to: 'payroll',
-      },
-      {
-        title: 'Add Payroll',
-        to: 'payroll-add',
-      },
-      {
-        title: 'Payroll Report',
-        to: 'payroll-report',
-      },
-    ],
-  },
-  {
     title: 'Expenses',
     icon: { icon: 'tabler-arrow-forward-up-double' },
     children: [
@@ -327,20 +239,6 @@ export default [
       {
         title: 'Upload Other Income',
         to: 'other-income-upload',
-      },
-    ],
-  },
-  {
-    title: 'Asset Management',
-    icon: { icon: 'tabler-briefcase-filled' },
-    children: [
-      {
-        title: 'View Asset Management',
-        to: 'asset-management',
-      },
-      {
-        title: 'Add Asset Management',
-        to: 'asset-management-add',
       },
     ],
   },

@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('customer_documents', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('profile_photo_path')->nullable();
+            $table->string('id_front_path')->nullable();
+            $table->string('id_back_path')->nullable();
+            $table->string('mpesa_statement_path')->nullable();
             $table->timestamps();
         });
     }

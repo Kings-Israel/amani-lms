@@ -15,6 +15,14 @@ return new class extends Migration
     {
         Schema::create('mrequests', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('loan_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('conversation_id')->nullable();
+            $table->string('originator_conversation_id')->nullable();
+            $table->string('response_code')->nullable();
+            $table->string('response_description')->nullable();
+            $table->boolean('settled')->default(false);
+            $table->integer('requested_by')->nullable();
+            $table->string('disburse_loan_ip')->nullable();
             $table->timestamps();
         });
     }

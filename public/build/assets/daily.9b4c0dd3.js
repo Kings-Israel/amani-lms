@@ -1,0 +1,1 @@
+import{y as e,o as a,c,p as t,bh as r}from"./main.cad6ac3f.js";const s={};function o(n,l){return a(),c("div",null,[t(r,{class:"mb-6",title:"Daily"})])}const d=e(s,[["render",o]]);export{d as default};

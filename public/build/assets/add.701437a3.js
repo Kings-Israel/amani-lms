@@ -1,1 +1,0 @@
-import{y as e,o as c,c as a,p as t,ba as r}from"./main.9f61b0b8.js";const o={};function s(n,d){return c(),a("div",null,[t(r,{class:"mb-6",title:"Add Other Income"})])}const _=e(o,[["render",s]]);export{_ as default};

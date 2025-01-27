@@ -1,0 +1,1 @@
+import{y as e,o as r,c as a,p as c,bh as n}from"./main.cad6ac3f.js";const o={};function s(t,l){return r(),a("div",null,[c(n,{class:"mb-6",title:"Loan Arrears Aging Report"})])}const i=e(o,[["render",s]]);export{i as default};

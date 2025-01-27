@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('customer_sms', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('branch_id')->references('id')->on('branches')->onDelete('cascade')->onUpdate('cascade');
+            $table->text('sms');
+            $table->string('phone_number');
             $table->timestamps();
         });
     }

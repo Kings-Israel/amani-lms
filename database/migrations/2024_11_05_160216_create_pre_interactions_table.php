@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('pre_interactions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('interation_category_id')->references('id')->on('customer_interaction_categories')->onDelete('cascade')->onUpdate('cascade');
+            $table->decimal('amount', 10, 2);
+            $table->dateTime('due_date');
+            $table->longText('system_remark')->nullable();
             $table->timestamps();
         });
     }

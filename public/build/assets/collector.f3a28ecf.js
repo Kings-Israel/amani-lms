@@ -1,0 +1,1 @@
+import{y as e,o as c,c as t,p as o,bh as r}from"./main.cad6ac3f.js";const s={};function a(l,n){return c(),t("div",null,[o(r,{class:"mb-6",title:"Collectors Reports (Staff)"})])}const _=e(s,[["render",a]]);export{_ as default};

@@ -1,1 +1,0 @@
-import{y as a,o as e,c,p as n,ba as r}from"./main.9f61b0b8.js";const o={};function t(s,l){return e(),c("div",null,[n(r,{class:"mb-6",title:"Manual Journal"})])}const _=a(o,[["render",t]]);export{_ as default};

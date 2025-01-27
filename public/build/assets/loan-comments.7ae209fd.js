@@ -1,0 +1,1 @@
+import{y as e,o,c as t,p as a,bh as c}from"./main.cad6ac3f.js";const n={};function s(r,l){return o(),t("div",null,[a(c,{class:"mb-6",title:"Loan Comments"})])}const _=e(n,[["render",s]]);export{_ as default};

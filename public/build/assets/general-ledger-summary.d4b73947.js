@@ -1,0 +1,1 @@
+import{y as e,o as r,c as a,p as c,bh as t}from"./main.cad6ac3f.js";const n={};function s(o,l){return r(),a("div",null,[c(t,{class:"mb-6",title:"General Ledger Summary"})])}const d=e(n,[["render",s]]);export{d as default};

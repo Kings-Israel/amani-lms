@@ -1,1 +1,0 @@
-import{y as e,o as r,c as a,p as c,ba as t}from"./main.9f61b0b8.js";const n={};function s(o,l){return r(),a("div",null,[c(t,{class:"mb-6",title:"General Ledger Summary"})])}const d=e(n,[["render",s]]);export{d as default};

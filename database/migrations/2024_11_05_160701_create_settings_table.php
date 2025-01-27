@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('settings', function (Blueprint $table) {
             $table->id();
+            $table->decimal('registration_fee', 10, 2)->nullable();
+            $table->decimal('loan_processing_fee', 10, 2)->nullable();
+            $table->decimal('rollover_interest', 10, 2)->nullable();
+            $table->decimal('lp_fee', 10, 2)->nullable();
             $table->timestamps();
         });
     }

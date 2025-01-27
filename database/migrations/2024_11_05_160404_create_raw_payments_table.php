@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('raw_payments', function (Blueprint $table) {
             $table->id();
+            $table->string('amount');
+            $table->string('mpesa_receipt_number');
+            $table->string('customer');
+            $table->string('phone_number');
+            $table->string('business_short_code');
+            $table->string('account_number');
             $table->timestamps();
         });
     }

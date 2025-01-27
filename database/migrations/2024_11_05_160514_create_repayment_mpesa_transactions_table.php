@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('repayment_mpesa_transactions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->decimal('amount', 10, 2);
+            $table->string('mpesa_receipt_number');
+            $table->dateTime('transaction_date');
+            $table->string('phone_number');
             $table->timestamps();
         });
     }

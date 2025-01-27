@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('regpayments', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('date_paid');
+            $table->string('transaction_id');
+            $table->decimal('amount', 10, 2)->nullable();
+            $table->string('channel');
             $table->timestamps();
         });
     }

@@ -1,0 +1,1 @@
+import{y as e,o as r,c as t,p as c,bh as o}from"./main.cad6ac3f.js";const a={};function s(n,l){return r(),t("div",null,[c(o,{class:"mb-6",title:"Payoll Report"})])}const p=e(a,[["render",s]]);export{p as default};

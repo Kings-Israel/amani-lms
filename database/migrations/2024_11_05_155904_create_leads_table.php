@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('leads', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('phone_number');
+            $table->string('type_of_business')->nullable();
+            $table->string('estimated_amount')->nullable();
+            $table->string('location')->nullable();
+            $table->foreignId('officer_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

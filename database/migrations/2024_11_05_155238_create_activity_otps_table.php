@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('activity_otps', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->string('token');
+            $table->string('activity');
+            $table->bigInteger('status')->default(1);
+            $table->dateTime('expire_at');
             $table->timestamps();
         });
     }

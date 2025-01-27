@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('ro_targets', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->integer('disbursement_target');
+            $table->decimal('disbursement_target_amount', 5, 2);
+            $table->decimal('collection_target', 10, 2);
+            $table->integer('customer_target')->unsigned()->nullable();
+            $table->date('date')->nullable();
             $table->timestamps();
         });
     }
