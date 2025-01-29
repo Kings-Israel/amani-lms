@@ -8,4 +8,21 @@ use Illuminate\Database\Eloquent\Model;
 class Mrequest extends Model
 {
     use HasFactory;
+
+    /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+
+    /**
+     * Get the loan that owns the Mrequest
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function loan(): BelongsTo
+    {
+        return $this->belongsTo(Loan::class);
+    }
 }
