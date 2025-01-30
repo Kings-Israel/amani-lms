@@ -14,7 +14,11 @@ class BusinessTypeController extends Controller
      */
     public function index()
     {
-        //
+        $bsuiness_types = BusinessType::all();
+
+        if (request()->wantsJson()) {
+            return response()->json(['data' => $bsuiness_types], 200);
+        }
     }
 
     /**

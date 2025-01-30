@@ -1,1 +1,0 @@
-import{y as e,o as s,c as t,p as a,bh as c}from"./main.cad6ac3f.js";const n={};function r(o,d){return s(),t("div",null,[a(c,{class:"mb-6",title:"Missed Repayments"})])}const m=e(n,[["render",r]]);export{m as default};

@@ -1,0 +1,1 @@
+import{y as e,o as r,c as o,p as c,bh as a}from"./main.46319f7a.js";const t={};function s(n,d){return r(),o("div",null,[c(a,{class:"mb-6",title:"Add Borrower Group"})])}const _=e(t,[["render",s]]);export{_ as default};

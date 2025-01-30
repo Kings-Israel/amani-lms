@@ -1,0 +1,1 @@
+import{y as t,o as a,c as e,p as s,bh as c}from"./main.46319f7a.js";const r={};function o(n,l){return a(),e("div",null,[s(c,{class:"mb-6",title:"Past Maturity Date Loans"})])}const i=t(r,[["render",o]]);export{i as default};

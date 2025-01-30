@@ -1,0 +1,1 @@
+import{y as e,o as c,c as a,p as s,bh as t}from"./main.46319f7a.js";const r={};function n(o,d){return c(),a("div",null,[s(t,{class:"mb-6",title:"Add Expense"})])}const _=e(r,[["render",n]]);export{_ as default};

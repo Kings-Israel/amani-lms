@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import axios from 'axios'
 import { PerfectScrollbar } from 'vue3-perfect-scrollbar'
 // eslint-disable-next-line @typescript-eslint/consistent-type-imports
 import type { VForm } from 'vuetify/components'
@@ -42,12 +43,10 @@ const salutations = ref([
 ])
 
 const countries = ref([
-  'Kenya', 'Uganda',
+  'Kenya',
 ])
 
-const counties = ref([
-  'Nairobi', 'Mombasa',
-])
+const counties = ref([])
 
 const loan_products = ref([
   'Loan Product 1', 'Loan Product 2',
@@ -65,9 +64,52 @@ const loan_purposes = ref([
   'Start Business', 'Business Expense',
 ])
 
-const business_types = ref([
-  'Tailoring', 'Beauty', 'Photography', 'Cleaning Services', 'Barber Shop', 'Legal Services',
-])
+const business_types = ref([])
+
+const getCounties = async () => {
+  await axios.get('../api/counties')
+    .then(response => {
+      counties.value = response.data.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
+
+const getBusinessTypes = async () => {
+  await axios.get('../api/business_types')
+    .then(response => {
+      business_types.value = response.data.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
+
+const getProducts = async () => {
+  await axios.get('../api/products')
+    .then(response => {
+      loan_products.value = response.data.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
+
+const getLoanTypes = async () => {
+  await axios.get('../api/loan_types')
+    .then(response => {
+      loan_repayment_types.value = response.data.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
+
+getProducts()
+getLoanTypes()
+getCounties()
+getBusinessTypes()
 
 const onSubmit = () => {
   refForm.value?.validate().then(({ valid }) => {
@@ -230,7 +272,15 @@ const onSubmit = () => {
                   label="County"
                   :rules="[requiredValidator]"
                   :items="counties"
-                />
+                  item-title="name"
+                >
+                  <template #item="{ props, item }">
+                    <VListItem
+                      v-bind="props"
+                      :subtitle="item.name"
+                    />
+                  </template>
+                </VSelect>
               </VCol>
 
               <!-- 👉 Constituency -->
@@ -263,7 +313,14 @@ const onSubmit = () => {
                   :rules="[requiredValidator]"
                   label="Product"
                   :items="loan_products"
-                />
+                >
+                  <template #item="{ props, item }">
+                    <VListItem
+                      v-bind="props"
+                      :subtitle="item.name"
+                    />
+                  </template>
+                </VSelect>
               </VCol>
 
               <!-- 👉 Repayment Type -->
@@ -273,7 +330,15 @@ const onSubmit = () => {
                   label="Repayment Type"
                   :rules="[requiredValidator]"
                   :items="loan_repayment_types"
-                />
+                  item-title="name"
+                >
+                  <template #item="{ props, item }">
+                    <VListItem
+                      v-bind="props"
+                      :subtitle="item.name"
+                    />
+                  </template>
+                </VSelect>
               </VCol>
 
               <!-- 👉 Negotiated Installments -->
@@ -282,6 +347,7 @@ const onSubmit = () => {
                   v-model="negotiatedInstallments"
                   label="Negotiated Installments"
                   :rules="[requiredValidator]"
+                  disabled
                 />
               </VCol>
 
@@ -312,7 +378,15 @@ const onSubmit = () => {
                   label="Business Type"
                   :rules="[requiredValidator]"
                   :items="business_types"
-                />
+                  item-title="name"
+                >
+                  <template #item="{ props, item }">
+                    <VListItem
+                      v-bind="props"
+                      :subtitle="item.name"
+                    />
+                  </template>
+                </VSelect>
               </VCol>
             </VRow>
 

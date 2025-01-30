@@ -1,1 +1,0 @@
-import{y as e,o,c as t,p as a,bh as c}from"./main.cad6ac3f.js";const n={};function r(s,l){return o(),t("div",null,[a(c,{class:"mb-6",title:"Pro Rata Collections Monthly"})])}const i=e(n,[["render",r]]);export{i as default};

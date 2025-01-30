@@ -1,1 +1,0 @@
-import{y as e,o as t,c,p as n,bh as a}from"./main.cad6ac3f.js";const r={};function s(o,i){return t(),c("div",null,[n(a,{class:"mb-6",title:"Principle Outstanding"})])}const d=e(r,[["render",s]]);export{d as default};

@@ -14,7 +14,11 @@ class BranchController extends Controller
      */
     public function index()
     {
-        //
+        $branches = Branch::all();
+
+        if (request()->wantsJson()) {
+            return response()->json(['data' => $branches], 200);
+        }
     }
 
     /**

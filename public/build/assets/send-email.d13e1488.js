@@ -1,0 +1,1 @@
+import{y as e,o as a,c,p as s,bh as t}from"./main.46319f7a.js";const n={};function r(o,l){return a(),c("div",null,[s(t,{class:"mb-6",title:"Send Email"})])}const _=e(n,[["render",r]]);export{_ as default};

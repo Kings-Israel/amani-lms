@@ -14,7 +14,11 @@ class ExpenseTypeController extends Controller
      */
     public function index()
     {
-        //
+        $expense_types = ExpenseType::all();
+
+        if (request()->wantsJson()) {
+            return response()->json(['data' => $expense_types], 200);
+        }
     }
 
     /**

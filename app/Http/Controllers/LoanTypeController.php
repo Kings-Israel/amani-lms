@@ -14,7 +14,11 @@ class LoanTypeController extends Controller
      */
     public function index()
     {
-        //
+        $loan_types = LoanType::all();
+
+        if (request()->wantsJson()) {
+            return response()->json(['data' => $loan_types], 200);
+        }
     }
 
     /**

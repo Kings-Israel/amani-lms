@@ -1,0 +1,1 @@
+import{y as e,o as c,c as o,p as t,bh as r}from"./main.46319f7a.js";const a={};function n(s,l){return c(),o("div",null,[t(r,{class:"mb-6",title:"Collection Report"})])}const i=e(a,[["render",n]]);export{i as default};

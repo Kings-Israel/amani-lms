@@ -1,0 +1,1 @@
+import{y as e,o as a,c,p as r,bh as t}from"./main.46319f7a.js";const o={};function s(n,d){return a(),c("div",null,[r(t,{class:"mb-6",title:"Add Payroll"})])}const _=e(o,[["render",s]]);export{_ as default};

@@ -1,0 +1,1 @@
+import{y as e,o as s,c as t,p as c,bh as a}from"./main.46319f7a.js";const n={};function o(r,l){return s(),t("div",null,[c(a,{class:"mb-6",title:"Send SMS to Investors"})])}const _=e(n,[["render",o]]);export{_ as default};

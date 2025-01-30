@@ -1,1 +1,0 @@
-import{y as e,o as c,c as t,p as a,bh as r}from"./main.cad6ac3f.js";const n={};function s(o,l){return c(),t("div",null,[a(r,{class:"mb-6",title:"Branch Equity"})])}const i=e(n,[["render",s]]);export{i as default};

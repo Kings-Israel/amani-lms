@@ -1,0 +1,1 @@
+import{y as e,o as c,c as r,p as a,bh as o}from"./main.46319f7a.js";const t={};function n(s,f){return c(),r("div",null,[a(o,{class:"mb-6",title:"Loan Officer Report"})])}const _=e(t,[["render",n]]);export{_ as default};

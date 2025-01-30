@@ -14,7 +14,11 @@ class CountyController extends Controller
      */
     public function index()
     {
-        //
+        $counties = County::orderBy('name', 'ASC')->get();
+
+        if (request()->wantsJson()) {
+            return response()->json(['data' => $counties], 200);
+        }
     }
 
     /**

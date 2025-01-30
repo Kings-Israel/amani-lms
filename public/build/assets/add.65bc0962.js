@@ -1,1 +1,0 @@
-import{y as e,o as c,c as t,p as a,bh as r}from"./main.cad6ac3f.js";const s={};function o(n,d){return c(),t("div",null,[a(r,{class:"mb-6",title:"Add Investor"})])}const _=e(s,[["render",o]]);export{_ as default};
